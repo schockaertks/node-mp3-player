@@ -1,11 +1,11 @@
 # MP3 player for grandma
 
-Used an old Raspberry Pi 1 Model B, USB speakers and build a wooden enclosure.<br />
-This node.js code has no external dependencies except for OMXPlayer to be installed on the Pi.<br />
+Used an old Raspberry Pi 1 Model B, USB speakers and built a wooden box to house it all.<br />
+This Node.js code has no external dependencies except for OMXPlayer to be installed on the Raspberry Pi.<br />
 It will synchronously read all files in the songs directory into an array.<br />
 After that it will copy the array, shuffle it, pop off a song and play it via a spawned OMXPlayer.<br />
-When all songs in the copied array are played, it will copy the original array again, shuffle and start playing.<br />
-All my grandma has to do is plug in the box and the Pi will boot, the script will run automatically and the music will start playing on an infinite loop.<br />
+When all songs in the copied array are played, it will copy the original array again, shuffle and continue playing.<br />
+All my grandma has to do is plug in the power cord and the Pi will boot, the script will run automatically and the music will start playing on an infinite loop.<br />
 
 **some quick notes if I need to reinstall**
 
